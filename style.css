@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+.header-title {
+    margin-top: 50px;
+    margin-left: 75px;
+    font-weight: 600;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.header-info {
+    width: 572px;
+    height: 270px;
+    margin-left: 70px;
+}
+
+.header-button {
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+.header-icon {
+    font-size: 16px;
+    font-weight: 600;
+    width: 463px;
+    height: 36px;
+
+}
+
+.button {
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+.header-img,
+img {
+    background-image: url(images/Circle\ design.svg);
+    background-size: 100%;
+    width: 440px;
+    height: 414px;
+    margin-left: 40px;
+}
+
+hr {
+    width: 1110px;
+}
+
+.logos {
+    display: flex;
+    text-align: justify;
+    justify-content: space-evenly;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.logo {
+    width: 80px;
+    height: 40px;
+
+}
