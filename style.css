@@ -17,6 +17,10 @@ body {
     align-items: center;
 }
 
+.container .header-img .header-icon {
+    margin-inline: 30px;
+}
+
 .header-info {
     width: 572px;
     height: 270px;
@@ -68,5 +72,61 @@ hr {
 .logo {
     width: 80px;
     height: 40px;
+}
 
+h1 {
+    text-align: center;
+}
+
+.main-container {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+
+    row-gap: 35px;
+}
+
+
+.star {
+    color: #FB8200;
+    size: 10px;
+}
+
+.main-container .collection {
+    margin-left: 41px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+}
+
+.main-container .items {
+
+    padding: 20px;
+    padding-right: 50px;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 5px;
+}
+
+.main-container img {
+    width: 300px;
+    height: 256px;
+}
+
+.more {
+    text-decoration: none;
+    font-weight: 600;
+    color: #E02C6D;
+    text-align: right;
+    margin: 0 auto;
+}
+
+footer {
+
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.last-class {
+    font-size: 13px;
 }
